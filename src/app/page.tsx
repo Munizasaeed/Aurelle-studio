@@ -7,6 +7,7 @@ import Hero from "@/components/Hero";
 import Gallery from "@/components/Gallery";
 import Perks  from "@/components/Perks";
 import Collections from "@/components/Collections";
+import Shop from "@/components/Shop";
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -37,6 +38,8 @@ export default function Home() {
             <Gallery/>
             <Perks />
             <Collections/>
+            <Shop/>
+
             {/* Hero Section aur baaki components yahan aayenge */}
             <div className="p-10">
               {/* Main Content */}
